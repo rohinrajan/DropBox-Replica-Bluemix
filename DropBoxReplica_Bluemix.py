@@ -21,13 +21,13 @@ except ImportError:
 encryptfilename = 'Sample1encrypt'
 decryptfilename = 'decryptfile'
 Passphrase = 'CloudComputing'
-project_id = '9c7ea377c9bf4a169c1314c94089f107'
-user_id = '95e540fdc54c4615a792b346db5f9a05'
+project_id = 'projectid'
+user_id = 'userid'
 region_name = 'dallas'
-password = 'lDO(MIW^A4PX3F&f'
-auth_url = 'https://identity.open.softlayer.com' + '/v3'
-user = 'admin_fb607fac-61f1-4616-82bc-727d5cfb674d_ee7059e5fe24'
-container_name= 'cont1'
+password = 'password'
+auth_url = 'auth_url' + '/v3'
+user = 'user'
+container_name= 'container_name'
 
 # Get a Swift client connection object
 conn = swiftclient.Connection(
